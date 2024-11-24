@@ -1,0 +1,14 @@
+/* theme.css */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #28a745;
+}
+
+.btn-login {
+  background-color: var(--primary-color);
+}
+
+.btn-update {
+  background-color: var(--secondary-color);
+}
+

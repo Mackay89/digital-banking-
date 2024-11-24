@@ -1,0 +1,47 @@
+{
+  "name": "digital-banking-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Digital Banking System with Blockchain and Stablecoin Integration",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "axios": "^0.24.0", 
+    "vuex": "^4.0.0",
+    "vuex-persistedstate": "^4.0.0",
+    "bootstrap": "^5.0.0",
+    "bootstrap-vue": "^2.21.2",
+    "chart.js": "^3.9.1", 
+    "vue-chartjs": "^4.0.0", 
+    "crypto-js": "^4.1.1", 
+    "web3": "^1.6.0", 
+    "vue-multiselect": "^3.0.0",
+    "vue-i18n": "^9.2.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.0",
+    "@vue/cli-plugin-eslint": "^5.0.0",
+    "@vue/cli-service": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "jest": "^27.0.0",
+    "vue-test-utils": "^2.0.0"
+  },
+  "vue": {
+    "devtools": true
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
+
